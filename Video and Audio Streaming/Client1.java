@@ -1,8 +1,9 @@
 package org.example.demo;
 
 
-import com.github.sarxos.webcam.Webcam;
+import com.github.sarxos.webcam.Webcam;  // to access camera
 import com.github.sarxos.webcam.WebcamResolution;
+
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
