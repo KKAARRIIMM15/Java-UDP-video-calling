@@ -8,6 +8,6 @@ The main reason beyond why UDP is chosen in this project that it does not wait f
 2- Lower Bandwidth Usage: UDP has less overhead compared to TCP because it does not require acknowledgments, handshakes, or retransmissions.
 
 3- Works Better in Unstable Networks: In wireless or mobile networks, data packets may be lost due to signal drops or congestion.UDP simply skips lost packets, so the video/audio continues playing smoothly without pauses
-### Network configuration
 
-#the project needs a Port Forwarding on the DSL router firewall
+## Network configuration
+### the project needs a Port Forwarding on the DSL router firewall
