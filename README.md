@@ -22,3 +22,13 @@ How Does Port Forwarding Work?
 3- Port forwarding tells your router to forward specific incoming traffic (from the internet) to a particular device inside your LAN.  
 
 
+# Serialization
+### Why Should Video Frames and Audio Frames Be Serialized Before Transmission Over a Network?
+1- Computers store video and audio data as complex structures in memory (arrays, buffers, etc.).  
+2- Networks do not understand these formats directly—they only transfer data as streams of bytes.  
+3- Serialization converts frames into a standard byte format that can be sent over a network.  
+4- Video and audio frames must be played in sequence to maintain synchronization. Serialization ensures frames are properly ordered and can be reconstructed in the correct order at the receiver.  
+5- Video and audio frames need to be kept in sync so that speech matches the video. Serialization often includes timestamps to help synchronize audio with video.  
+
+
+
