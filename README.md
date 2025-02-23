@@ -9,7 +9,7 @@ The main reason beyond why UDP is chosen in this project that it does not wait f
 
 3- Works Better in Unstable Networks: In wireless or mobile networks, data packets may be lost due to signal drops or congestion.UDP simply skips lost packets, so the video/audio continues playing smoothly without pauses
 
-## Network configuration
+## Network configuration applied in the project
 ### The project needs to apply Port Forwarding on the DSL router firewall
 Why Should You Use Port Forwarding in WAN Connections?  
 When you are connected to the internet (WAN – Wide Area Network), your devices are typically behind a router or firewall, which blocks incoming connections for security reasons. 
