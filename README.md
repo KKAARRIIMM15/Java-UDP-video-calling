@@ -11,13 +11,12 @@ The main reason beyond why UDP is chosen in this project that it does not wait f
 
 ## Network configuration
 ### The project needs to apply Port Forwarding on the DSL router firewall
-Why Should You Use Port Forwarding in WAN Connections?
-
+Why Should You Use Port Forwarding in WAN Connections?  
 When you are connected to the internet (WAN – Wide Area Network), your devices are typically behind a router or firewall, which blocks incoming connections for security reasons. 
 Port forwarding allows external devices (on the internet) to access specific services on your local network.
 
-How Does Port Forwarding Work?
 
+How Does Port Forwarding Work?  
 1- Your router has a public IP address (WAN IP) that is visible on the internet.  
 2- Your devices inside your network (LAN) have private IPs that are not directly accessible from the internet.  
 3- Port forwarding tells your router to forward specific incoming traffic (from the internet) to a particular device inside your LAN.  
