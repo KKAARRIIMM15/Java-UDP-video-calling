@@ -1,5 +1,5 @@
 # Project Idea
-The idea is to implement video and audio live streaming that transfere video frames and audio frames from one device to other device over WAN (Wide Area Network) using JAVA Programming Language
+The idea is to implement video and audio live streaming that transfere video frames and audio frames from one device to other device over WAN using JAVA Programming Language
 # Network Protocol used in the project
 The main reason beyond why UDP is chosen in this project that it does not wait for lost packets to be re-sent, so the stream keeps playing smoothly even if a few packets are missing.
 
